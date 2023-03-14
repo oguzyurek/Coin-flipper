@@ -36,3 +36,72 @@
     transform: rotate(360deg);
   }
 }
+
+
+.button-flip {
+  scale: .8;
+  display: inline-block;
+  margin: .25em;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(13, 68, 19);
+}
+
+.button-flip:hover {background-color: #3e8e41}
+
+.button-flip:active {
+  background-color: #3e8e41;
+  box-shadow: 0 px #666;
+  transform: translateY(4px);
+}
+.button-restart {
+  scale: .8;
+  display: inline-block;
+  margin: .25em;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: red;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(13, 68, 19);
+}
+
+.button-restart:hover {background-color: rgb(211, 11, 11)}
+
+.button-restart:active {
+  background-color:  rgb(211, 11, 11);
+  box-shadow: 0 px #666;
+  transform: translateY(4px);
+}
+
+img{
+  margin: 2em;
+  max-width: 150px;
+  max-height: max-content;
+}
+
+.coinFlipper{
+  margin: 3em;
+}
+
+
+
+.winner{
+  color: green;
+}
+.loser{
+  color: red;
+}
